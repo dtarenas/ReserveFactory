@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Description>Model Layer</Description>
+    <Copyright>all rights reserved</Copyright>
+    <PackageProjectUrl>https://github.com/dtarenas/ReserveFactory</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dtarenas/ReserveFactory</RepositoryUrl>
+    <RepositoryType>Public</RepositoryType>
+    <PackageTags>Models, Entities, DTO, ViewModels</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+
+</Project>
